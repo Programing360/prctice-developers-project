@@ -38,5 +38,121 @@ body{
     height: 64px;
     color: #005FAC;
     font-size: 20px;
-    font-family: bold;/
+    font-family: bold;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+/* main related style */
+.my-previous{
+    display: flex;
+    width: 1072px;
+    height: 723px;
+    padding: 128px 300px 128px 200px;
+
+}
+.my-failures{
+    padding: 235px 0px 100px 87px;
+}
+.my-failures-size{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.para-size{
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+.para-size-list{
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+/* div2 related style */
+.my-plans{
+    text-align: center;
+    font-size: 40px;
+}
+.website-link{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 72px 160px;
+    /* padding-right: 100px; */
+    gap: 80px;
+}
+.web-name-size{
+    font-size: 30px;
+    color: #151414;
+    /* width: 174px;
+    height: 35; */
+}
+.web-para-size{
+    font-size: 25px;
+    color: #737272;
+    font-weight: 400;
+}
+.watch-image{
+    position: relative;
+    margin: 120px 225px;
+}
+.watch-title{
+    top: 10%;
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    padding: 0px 618px 0px 61px;
+}
+.watch-title-position{
+    font-size: 40px;
+    color: #FFFFFF;
+    /* padding-bottom: px; */
+
+}
+.watch-total-size{
+    
+}
+/* footer-related-style */
+.future-subscribe{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 143px 228px;
+}
+footer{
+    background: #151414;
+    max-width: 100%;
+}
+.subscribe{
+    width: 325px;
+    height: 197px;
+    /* margin-right: 50px; */
+}
+.input-subscribe{
+    width: 325px;
+    height: 64px;
+    padding: 25px 100px 25px 20px;
+    font-size: 18px;
+    background-color: #151414;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin: 20px 0px 25px 0px;
+    border-radius: 8px;
+    border-color: #F3F3F3;
+}
+.future-title{
+    width: 485px;
+    height: 317px;
+}
+.future-size{
+    font-size: 45px;
+}
+.future-para{
+    font-size: 16px;
+}
+.btn-subscribe{
+    width: 170.11px;
+    height: 64px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
 }
