@@ -75,7 +75,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin: 72px 160px;
+    margin: 72px 0px 72px 180px;
     /* padding-right: 100px; */
     gap: 80px;
 }
@@ -123,8 +123,12 @@ footer{
 }
 .subscribe{
     width: 325px;
-    height: 197px;
+    /* height: 197px; */
     /* margin-right: 50px; */
+    
+}
+.subscribe-title{
+    padding: 40px 0px 2px 0px;
 }
 .input-subscribe{
     width: 325px;
@@ -155,4 +159,9 @@ footer{
     color: #FFFFFF;
     border-radius: 5px;
     border: 0px;
+}
+.social-link{
+    width: 175px;
+    height: 46px;
+    padding-right: 10px;
 }
